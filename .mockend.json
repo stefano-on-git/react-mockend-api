@@ -1,13 +1,14 @@
 {
   "Utenti": {
-    "id": "string",
-    "nome": "int",
-    "cognome": "boolean",
+    "id": "int",
+    "nome": "string",
+    "cognome": "string",
     "email": "string",
+    "attivo": "boolean",
     "profili": "Profili[]"
   },
   "Profili": {
-    "id": "string",
+    "id": "int",
     "profilo": "string"
   }
 }
