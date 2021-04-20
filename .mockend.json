@@ -1,13 +1,13 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
+  "Utenti": {
+    "id": "string",
+    "nome": "int",
+    "cognome": "boolean",
+    "email": "string",
+    "profili": "Profili[]"
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+  "Profili": {
+    "id": "string",
+    "profilo": "string"
   }
 }
