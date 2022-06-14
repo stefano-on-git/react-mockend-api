@@ -5,9 +5,6 @@
     "surname": { "regexp": "[A-Z][a-z]{5,10}" },
     "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
     "active": {"boolean": {}},
-    "profiles": {
-      "id": {"int": { "min": 0, "max": 1000000 }},
-      "profile": {"string": ["Admin", "Logistic", "Report"]}
-    }
+    "profiles": {"string": ["Admin", "Logistic", "Report"]}    
   }    
 }
