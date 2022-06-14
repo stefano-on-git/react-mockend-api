@@ -3,7 +3,7 @@
     "id": {"int": { "min": 0, "max": 1000000 }},
     "name": { "regexp": "[A-Z][a-z]{5,10}" },
     "surname": { "regexp": "[A-Z][a-z]{5,10}" },
-    "email": {"string": {}},
+    "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
     "active": {"boolean": {}},
     "profiles": {"hasMany": "Profile"}
   },
