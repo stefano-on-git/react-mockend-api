@@ -8,7 +8,7 @@
     "profiles": {"hasMany": "Profile"}
   },
   "Profile": {
-    "id": {"int": { "min": 0, "max": 1000000 }},
+    "id": {"int": { "min": 1, "max": 3 }},
     "profile": {"string": ["Admin", "Logistic", "Report"]}
   }
 }
