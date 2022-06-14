@@ -1,14 +1,14 @@
 {
   "User": {
     "id": {"int": { "min": 0, "max": 1000000 }},
-    "name": {"string": {}},
-    "surname": {"string": {}},
+    "name": { "regexp": "[A-Z][a-z]{5,10}" },
+    "surname": { "regexp": "[A-Z][a-z]{5,10}" },
     "email": {"string": {}},
     "active": {"boolean": {}},
     "profiles": {"hasMany": "Profile"}
   },
   "Profile": {
     "id": {"int": { "min": 0, "max": 1000000 }},
-    "profile": {"string": {}}
+    "profile": {"string": ["Admin", "Logistic", "Report"]}
   }
 }
