@@ -5,7 +5,7 @@
     "surname": {"string": {}},
     "email": {"string": {}},
     "active": {"boolean": {}},
-    "profiles": "hasMany": "Profile"
+    "profiles": {"hasMany": "Profile"}
   },
   "Profile": {
     "id": {"int": {}},
